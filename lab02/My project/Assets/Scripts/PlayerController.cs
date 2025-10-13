@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     void OnJump(InputValue movementValue)
     {
-        rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * 15, ForceMode.Impulse);
 
     }
     private void FixedUpdate()
